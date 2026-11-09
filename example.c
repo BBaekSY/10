@@ -1,15 +1,12 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
 
 int main(void)
 {
-    char src[] = "The worst things to eat before you sleep";
-    char dst[100];
+    char str[30] = "happy C programming";
 
-    strcpy(dst, src);
-
-    printf("copied string : %s\n", dst);
+    printf("String: %s\n", str);
+    printf("Length: %zu\n", strlen(str));
 
     return 0;
 }
